@@ -1,0 +1,26 @@
+{
+    "name": "nightowl-with-dark-sidebar",
+    "displayName": "Night Owl with Dark Sidebar",
+    "description": "Night Owl light and Dark theme (no italics) by sarah.drasner with the reincorporation of the vscode default dark sidebar.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light plus Night Owl",
+                "uiTheme": "vs",
+                "path": "./themes/Light plus Night Owl-color-theme.json"
+            },
+            {
+                "label": "Dark plus Night Owl",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark plus Night Owl-color-theme.json"
+            }
+        ]
+    }
+}
